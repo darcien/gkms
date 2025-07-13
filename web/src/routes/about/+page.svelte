@@ -1,4 +1,5 @@
 <script>
+	import { assets } from '$app/paths';
 	import { siteName } from '$lib/constants';
 </script>
 
@@ -35,7 +36,11 @@
 		<p>It's a Saki chibigurumi inside SSD tumbler.</p>
 
 		<figure class="mx-auto">
-			<img src="/sakinui_upright.jpg" alt="Sakinui on SSD tumbler" class="mx-auto h-128 w-auto" />
+			<img
+				src="{assets}/sakinui_upright.jpg"
+				alt="Sakinui on SSD tumbler"
+				class="mx-auto h-128 w-auto"
+			/>
 			<figcaption class="mt-1 text-center">
 				Original photo, before it's processed for outlining and recolor.
 			</figcaption>

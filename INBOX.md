@@ -53,3 +53,4 @@
   - deno LSP also runs in web dir,
     doesn't seem like there's easy way to disable it for specific path,
     but can "enable" it on specific path instead
+- setup enhanced img - https://svelte.dev/docs/kit/images#sveltejs-enhanced-img
