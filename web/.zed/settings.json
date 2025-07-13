@@ -1,0 +1,28 @@
+{
+	"languages": {
+		"TypeScript": {
+			"formatter": {
+				"external": {
+					"command": "sh",
+					"arguments": ["-c", "cd web && npx prettier --stdin-filepath {buffer_path}"]
+				}
+			}
+		},
+		"JavaScript": {
+			"formatter": {
+				"external": {
+					"command": "sh",
+					"arguments": ["-c", "cd web && npx prettier --stdin-filepath {buffer_path}"]
+				}
+			}
+		},
+		"Svelte": {
+			"formatter": {
+				"external": {
+					"command": "sh",
+					"arguments": ["-c", "cd web && npx prettier --stdin-filepath {buffer_path}"]
+				}
+			}
+		}
+	}
+}

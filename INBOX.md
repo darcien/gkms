@@ -22,7 +22,6 @@
 
 ## website - content
 
-- fill about page
 - setup i18n
   - right now en and ja is mixed
 - report card still need more stats
