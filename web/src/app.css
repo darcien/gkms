@@ -24,7 +24,7 @@ body::before {
 
 	background-image: url(/sakinui_ssd_160_32gap.png);
 	background-repeat: repeat;
-	background-position: 64px;
+	background-position: 64px 32px;
 	opacity: 0.2;
 
 	z-index: -1;
