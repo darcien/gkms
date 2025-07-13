@@ -1,0 +1,23 @@
+{
+  "version": "5",
+  "specifiers": {
+    "jsr:@logtape/logtape@1": "1.0.0",
+    "npm:zod@^3.25.67": "3.25.67"
+  },
+  "jsr": {
+    "@logtape/logtape@1.0.0": {
+      "integrity": "30e23091ed75daac9eaff83688a90ccfbb7e75e79d0344d5a6e9585e6f653f92"
+    }
+  },
+  "npm": {
+    "zod@3.25.67": {
+      "integrity": "sha512-idA2YXwpCdqUSKRCACDE6ItZD9TZzy3OZMtpfLoh6oPR47lipysRrJfjzMqFxQ3uJuUPyUeWe1r9vLH33xO/Qw=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@logtape/logtape@1",
+      "npm:zod@^3.25.67"
+    ]
+  }
+}

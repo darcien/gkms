@@ -1,0 +1,18 @@
+{
+  "tasks": {
+    "fetch:media": "deno run --allow-net='channel.microcms.io' --allow-write=. fetch_media.ts",
+    "process:refine": "deno run --allow-read=. --allow-write=. refine_all_media.ts",
+    "process:transform": "deno run --allow-read=. --allow-write=. transform_all_media.ts",
+    "process:normalise": "deno run --allow-read=. --allow-write=. normalise_radio.ts",
+    "process:analyse": "deno run --allow-read=. --allow-write=. compute_stats.ts",
+    "process-all": "deno task process:refine && deno task process:transform && deno task process:normalise && deno task process:analyse",
+    "fetch-process-all": "deno task fetch:media && deno task process-all"
+  },
+  "imports": {
+    "@logtape/logtape": "jsr:@logtape/logtape@^1.0.0",
+    "zod": "npm:zod@^3.25.67"
+  },
+  "compilerOptions": {
+    "noUncheckedIndexedAccess": true
+  }
+}

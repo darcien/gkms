@@ -1,0 +1,77 @@
+{
+  "freqBySlug": {
+    "iwachan": 8,
+    "myachan": 8,
+    "bambi": 8,
+    "aochan": 8,
+    "suuchan": 6,
+    "hamu": 6,
+    "mugichan": 6,
+    "pikarun": 6,
+    "mashipi": 5,
+    "kawachimura": 5,
+    "nonsan": 4,
+    "aaya": 3,
+    "yamamoto": 1,
+    "daichi": 1,
+    "yukka": 1,
+    "osawa": 1,
+    "takafumi": 1,
+    "komino": 1
+  },
+  "groupedSlugFreq": {
+    "cast": [
+      [
+        "aochan",
+        8
+      ],
+      [
+        "bambi",
+        8
+      ],
+      [
+        "pikarun",
+        6
+      ],
+      [
+        "mugichan",
+        6
+      ],
+      [
+        "iwachan",
+        8
+      ],
+      [
+        "hamu",
+        6
+      ],
+      [
+        "myachan",
+        8
+      ],
+      [
+        "kawachimura",
+        5
+      ],
+      [
+        "mashipi",
+        5
+      ],
+      [
+        "nonsan",
+        4
+      ],
+      [
+        "aaya",
+        3
+      ],
+      [
+        "suuchan",
+        6
+      ]
+    ]
+  },
+  "firsRadioAiredAt": "2024-08-28T12:00:00.000Z",
+  "totalEpisodesCount": 45,
+  "totalGuestsCount": 79
+}

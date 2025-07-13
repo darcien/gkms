@@ -1,0 +1,203 @@
+{
+  "id": "mxs28mzdetx7",
+  "createdAt": "2025-05-02T01:20:18.211Z",
+  "updatedAt": "2025-05-09T02:42:09.920Z",
+  "publishedAt": "2025-05-05T02:30:04.742Z",
+  "revisedAt": "2025-05-09T02:42:09.920Z",
+  "jasrac_registration": {
+    "fieldId": "jasrac_configs",
+    "jasrac_required": true,
+    "jasrac_submitted": false
+  },
+  "title": "初星学園放送部 #36",
+  "channel": {
+    "id": "idolmaster",
+    "createdAt": "2023-06-12T17:19:29.302Z",
+    "updatedAt": "2025-05-22T02:42:58.262Z",
+    "publishedAt": "2023-06-12T17:19:29.302Z",
+    "revisedAt": "2025-05-22T02:42:58.262Z",
+    "name": "アイドルマスター",
+    "icon": {
+      "url": "https://images.microcms-assets.io/assets/d2420de4b9194e11beb164f99edb1f95/1f7805fcbd4c4f39acdda764e817d9f8/105_Pinkimas.png",
+      "height": 105,
+      "width": 105
+    },
+    "icon_wide": {
+      "url": "https://images.microcms-assets.io/assets/d2420de4b9194e11beb164f99edb1f95/df0081e06cb845458fa1e98fdf4732c0/%E6%96%B0%E8%A6%8F%20Microsoft%20PowerPoint%20%E3%83%97%E3%83%AC%E3%82%BC%E3%83%B3%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%20(23).png",
+      "height": 160,
+      "width": 480
+    },
+    "description": "<p>チャンネル「アイドルマスター」では、 ラジオやライブ・イベント情報、アイドルたちによる番組のほか、 「アイドルマスター」をより深く楽しむための様々なコンテンツをお届けします。</p>",
+    "utility_area": {
+      "fieldId": "utility",
+      "type": ["画像"],
+      "thumb": {
+        "url": "https://images.microcms-assets.io/assets/d2420de4b9194e11beb164f99edb1f95/ce60cf636c234c11a1f3da76825d5c2f/CREATE%20POWER%20WITH%20YOU.png",
+        "height": 150,
+        "width": 478
+      },
+      "media": null,
+      "url": "https://idolmaster-official.jp/"
+    },
+    "membership_item": null,
+    "thread_group_list": [
+      { "id": "1op8vf3eshz" },
+      { "id": "za9_jvtrb-my" },
+      { "id": "e9ry3huf_cr7" }
+    ],
+    "home_playlist": [
+      {
+        "fieldId": "playlist",
+        "tag": { "id": "hvm5qw3c6od" },
+        "ip": null,
+        "rental": null
+      },
+      {
+        "fieldId": "playlist",
+        "tag": null,
+        "ip": { "id": "ip-cinderellagirls" },
+        "rental": null
+      },
+      {
+        "fieldId": "playlist",
+        "tag": null,
+        "ip": { "id": "ip-millionlive" },
+        "rental": null
+      },
+      {
+        "fieldId": "playlist",
+        "tag": null,
+        "ip": { "id": "ip-sidem" },
+        "rental": null
+      },
+      {
+        "fieldId": "playlist",
+        "tag": null,
+        "ip": { "id": "ip-shinycolors" },
+        "rental": null
+      },
+      {
+        "fieldId": "playlist",
+        "tag": null,
+        "ip": { "id": "ip-gakuen" },
+        "rental": null
+      }
+    ],
+    "premium_playlist": [
+      { "id": "t-shinyradio-p" },
+      { "id": "ekn5w6rw2pq" },
+      { "id": "wekkczoayf6" },
+      { "id": "t-cinderella_cg_kagayaki_yomatsuri" },
+      { "id": "sp5oao9inbw" },
+      { "id": "uswnrob3fq" },
+      { "id": "z60so3x1rf" }
+    ]
+  },
+  "ip": [
+    {
+      "id": "ip-gakuen",
+      "createdAt": "2024-05-02T02:50:32.407Z",
+      "updatedAt": "2024-08-27T06:32:28.378Z",
+      "publishedAt": "2024-05-02T02:50:32.407Z",
+      "revisedAt": "2024-08-27T05:17:48.789Z",
+      "name": "学園アイドルマスター",
+      "list_tags": [{ "id": "56eawbbs5" }, { "id": "eyhy8zrnvh50" }]
+    }
+  ],
+  "genre": [
+    {
+      "id": "g-radio",
+      "createdAt": "2023-07-02T21:13:33.658Z",
+      "updatedAt": "2024-08-27T06:29:53.395Z",
+      "publishedAt": "2023-07-02T21:13:33.658Z",
+      "revisedAt": "2024-08-27T06:29:53.395Z",
+      "name": "ラジオ",
+      "list_tags": [
+        { "id": "t-shinyradio-p" },
+        { "id": "56eawbbs5" },
+        { "id": "t-denonbu-radio2" },
+        { "id": "t-denonbu-radio2-p" },
+        { "id": "hvm5qw3c6od" },
+        { "id": "t-denonbu-radio" },
+        { "id": "t-denonbu-radio-p" },
+        { "id": "t-denonbu-gr" },
+        { "id": "t-denonbu-gr-p" },
+        { "id": "z60so3x1rf" },
+        { "id": "t-talesof-radio-p" },
+        { "id": "k-qdvnjbd" },
+        { "id": "6pzsubxwttv" },
+        { "id": "67fhzrhi1vv" }
+      ]
+    }
+  ],
+  "tag": [],
+  "body": "<p><strong>▼出演者▼</strong><br>MC: 村田綾香（真城 優役）<br>ゲスト: 長月あおい（花海咲季役）、小鹿なお（月村手毬役）、飯田ヒカル（藤田ことね役）<br><br>番組の感想やMC・キャストへのメッセージは<br><a href=\"https://asobistore.jp/content/title/Idolmaster/gakuenradio/contact/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">こちら</a>から！<br>★次回ゲスト→春咲 暖（秦谷美鈴役）、陽高真白（十王星南役）<br><br><strong>『学園アイドルマスター 初星学園放送部 公開録音2025<br>～放送部の優雅で軽やかで大騒ぎな一日～』</strong><br><br>■公式サイト<br><a href=\"https://idolmaster-official.jp/live_events/gkmas_hosobu2025\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">https://idolmaster-official.jp/live_events/gkmas_hosobu2025</a><br><br>■チケット受付はこちら！<br><a href=\"https://asobiticket2.asobistore.jp/receptions/9d49a99a-c49f-4775-8932-3fe65ae47325\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">https://asobiticket2.asobistore.jp/receptions/9d49a99a-c49f-4775-8932-3fe65ae47325</a><br><br><strong>▼「学園アイドルマスター The 1st Period Harmony Star」▼</strong><br><a href=\"https://idolmaster-official.jp/live_event/gkmas_1stperiod/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">https://idolmaster-official.jp/live_event/gkmas_1stperiod/</a><br><br>------------------<br>「初星学園放送部」とは、初星学園の放送部を舞台とした、「学園アイドルマスター」公式Webラジオです。<br>放送部部長である真城優役 村田綾香さんのMCとともに、<br>「学園アイドルマスター」キャストのみなさんのここでしか聞けない話や<br>プロデューサーのみなさんからのおたよりをもとにしたトークで<br>「学園アイドルマスター」を一緒に、より一層楽しみましょう！<br><br><strong>▼「初星学園放送部」関連リンク▼</strong><br>・初星学園放送部公式サイト <a href=\"https://asobistore.jp/content/title/Idolmaster/gakuenradio\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">https://asobistore.jp/content/title/Idolmaster/gakuenradio</a><br>・お便り投稿フォーム <a href=\"https://asobistore.jp/content/title/Idolmaster/gakuenradio/contact/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">https://asobistore.jp/content/title/Idolmaster/gakuenradio/contact/</a><br>・「初星学園放送部」Discordチャンネル <a href=\"https://discord.com/invite/sgSdejpp3Z\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">https://discord.com/invite/sgSdejpp3Z</a><br><br><strong>▼学マス関連リンク▼ </strong><br>・公式サイト <a href=\"https://gakuen.idolmaster-official.jp/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">https://gakuen.idolmaster-official.jp/</a> <br>・公式X（旧:Twitter）<a href=\"https://x.com/gkmas_official\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">https://x.com/gkmas_official</a></p>",
+  "contents": {
+    "fieldId": "contents",
+    "video_id": "68b38ade",
+    "video_type": ["VOD"],
+    "video_thumb": {
+      "url": "https://images.microcms-assets.io/assets/d2420de4b9194e11beb164f99edb1f95/29aef8e09e5f4062b9135c779c3ae4cc/%E5%88%9D%E6%98%9F%E5%AD%A6%E5%9C%92%E8%93%8B%E7%B5%B5_36_01.png",
+      "height": 1080,
+      "width": 1920
+    }
+  },
+  "layout_vertical": false,
+  "comment": {
+    "fieldId": "comment",
+    "live": [],
+    "archive": "wss://ac-replay-api.asobistore.jp/mxs28mzdetx7/archive",
+    "hide_board": false
+  },
+  "period": { "fieldId": "period", "start": "2025-05-07T12:00:00.000Z" },
+  "playCheckList": [],
+  "relatedVideos": {
+    "fieldId": "tagGroup",
+    "ip": [
+      {
+        "id": "ip-gakuen",
+        "createdAt": "2024-05-02T02:50:32.407Z",
+        "updatedAt": "2024-08-27T06:32:28.378Z",
+        "publishedAt": "2024-05-02T02:50:32.407Z",
+        "revisedAt": "2024-08-27T05:17:48.789Z",
+        "name": "学園アイドルマスター",
+        "list_tags": [{ "id": "56eawbbs5" }, { "id": "eyhy8zrnvh50" }]
+      }
+    ],
+    "genre": [],
+    "tag": []
+  },
+  "goods": {
+    "id": "dci1i7bqeoha",
+    "createdAt": "2024-08-23T02:22:24.686Z",
+    "updatedAt": "2025-06-25T10:21:25.305Z",
+    "publishedAt": "2024-08-23T02:22:24.686Z",
+    "revisedAt": "2025-06-25T10:21:25.305Z",
+    "title": "初星学園 放送部",
+    "list": [
+      { "id": "p3h1qdv8vwb" },
+      { "id": "qgf3aahj5" },
+      { "id": "f07cfr44az4r" },
+      { "id": "l0zr4jspt" },
+      { "id": "nvyff21vzd" },
+      { "id": "ybvuid65s" },
+      { "id": "cpbijp-epz" },
+      { "id": "vx0ahpnr5" },
+      { "id": "ps5_3o387" },
+      { "id": "fdf6x9u54" },
+      { "id": "q97ue_spj4bv" },
+      { "id": "w2f0i-9ie8x" },
+      { "id": "8rsss_dj0tn" },
+      { "id": "aw3_37m8pd" },
+      { "id": "r2q28e66wn6" },
+      { "id": "2thb4d85hlp" },
+      { "id": "rcfxnc7yb6nr" },
+      { "id": "7-4ea4z_p" },
+      { "id": "eoppvqa-m" },
+      { "id": "sqz8f2jnpao" },
+      { "id": "f6wjl8kye0" }
+    ]
+  },
+  "vote": [],
+  "utilArea": "/c/lvcm/v1"
+}
