@@ -48,3 +48,8 @@
 
 - setup deployment
 - setup domain
+- restructure the repo
+  - zed still missing lots of monorepo configs
+  - deno LSP also runs in web dir,
+    doesn't seem like there's easy way to disable it for specific path,
+    but can "enable" it on specific path instead

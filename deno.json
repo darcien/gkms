@@ -14,5 +14,6 @@
   },
   "compilerOptions": {
     "noUncheckedIndexedAccess": true
-  }
+  },
+  "exclude": ["web/"]
 }
