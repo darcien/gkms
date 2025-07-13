@@ -7,7 +7,7 @@
 	<title>About - {siteName}</title>
 </svelte:head>
 
-<div class="mx-auto max-w-3xl px-6 py-6 md:px-0">
+<div class="mx-auto max-w-3xl p-6 pb-32 md:px-0">
 	<h2 class="text-primary mb-6 text-3xl font-bold">About {siteName}</h2>
 
 	<div class="prose prose-lg max-w-none leading-relaxed text-gray-700">

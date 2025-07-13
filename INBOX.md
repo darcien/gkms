@@ -19,6 +19,8 @@
   - use game or mashiro color scheme?
 - need to figure out what font to use
 - what about guest icon?
+- for report card, text size in small display is too big
+
 
 ## website - content
 
@@ -47,6 +49,10 @@
 ## ops
 
 - setup deployment
+  - gh pages is done, but root page has extra slash
+  - plus with the sveltekit static assets thing,
+    maybe need to look into different host.
+    Right now need to rebuild for different domain.
 - setup domain
 - restructure the repo
   - zed still missing lots of monorepo configs

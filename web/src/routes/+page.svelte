@@ -27,10 +27,10 @@
 	/>
 </svelte:head>
 
-<div class="flex flex-col items-center p-4">
+<div class="flex flex-col items-center px-4 pt-6 pb-12">
 	<h2 class=" text-xl font-medium text-neutral-600">Broadcast Report Card</h2>
 	<div
-		class="mb-6 flex w-full max-w-[768px] items-center justify-center gap-2 px-6 text-[0.5rem] text-neutral-600"
+		class="mb-6 flex w-full max-w-3xl items-center justify-center gap-2 px-6 text-[0.5rem] text-neutral-600"
 	>
 		<span>✦</span>
 		<span class="h-0.5 w-full bg-neutral-600"></span>
@@ -38,7 +38,7 @@
 	</div>
 
 	<div
-		class="border-border grid w-full max-w-[768px] min-w-80 grid-cols-1 border-2 bg-white text-lg text-neutral-500 md:grid-cols-2"
+		class="border-border grid w-full max-w-3xl min-w-80 grid-cols-1 border-2 bg-white text-lg text-neutral-500 md:grid-cols-2"
 	>
 		<!-- Top stats section -->
 		<div class="border-border border-b-2 px-6 py-4 md:border-r-2">
