@@ -31,7 +31,7 @@ export const customParams = new URLSearchParams({
   // Descending order by publishedAt, latest first
   orders: "-publishedAt",
   offset: "0",
-  limit: "50",
+  limit: String(60),
   // TODO: add fields to reduce the size of the response
 });
 

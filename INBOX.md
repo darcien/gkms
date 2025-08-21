@@ -10,6 +10,8 @@
 - consider extracting key from code
 - guest color maybe should be in website instead of data
 - parse next guest from episode description
+- #50 and #51 is mostly digest version of the events
+  right now guest is counted, maybe it should be?
 
 ## website - design
 
@@ -19,6 +21,17 @@
   - use game or mashiro color scheme?
 - need to figure out what font to use
 - what about guest icon?
+  - direct photo to pixel doesn't work, face feature are wiped
+  - maybe try again with cropped to face only (low confidence)
+  - instant style transfer, with photo as source, and icon as reference,
+    doesn't strongly preserve the reference style even with max strength
+  - maybe a manual icon manipulation using text would work?
+    will take lot of tries on individual icon
+  - emoji, is there exactly 1 emoji for each cast?
+  - kanji? maybe could work if colored, but there's variation in number
+    of character for family name
+  - worst case, use idol icon
+    maybe no, that would be just a boring copy
 - for report card, text size in small display is too big
 
 

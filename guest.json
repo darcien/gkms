@@ -1,20 +1,5 @@
 [
   {
-    "name": "湊みや",
-    "role": "紫雲清夏役",
-    "slug": "myachan"
-  },
-  {
-    "name": "川村玲奈",
-    "role": "篠澤広役",
-    "slug": "kawachimura"
-  },
-  {
-    "name": "花岩香奈",
-    "role": "葛城リーリヤ役",
-    "slug": "iwachan"
-  },
-  {
     "name": "伊藤舞音",
     "role": "倉本千奈役",
     "slug": "hamu"
@@ -23,6 +8,46 @@
     "name": "松田彩音",
     "role": "花海佑芽役",
     "slug": "aaya"
+  },
+  {
+    "name": "飯田ヒカル",
+    "role": "藤田ことね役",
+    "slug": "pikarun"
+  },
+  {
+    "name": "川村玲奈",
+    "role": "篠澤広役",
+    "slug": "kawachimura"
+  },
+  {
+    "name": "長月あおい",
+    "role": "花海咲季役",
+    "slug": "aochan"
+  },
+  {
+    "name": "七瀬つむぎ",
+    "role": "有村麻央役",
+    "slug": "mugichan"
+  },
+  {
+    "name": "薄井友里",
+    "role": "姫崎莉波役",
+    "slug": "suuchan"
+  },
+  {
+    "name": "春咲暖",
+    "role": "秦谷美鈴役",
+    "slug": "nonsan"
+  },
+  {
+    "name": "湊みや",
+    "role": "紫雲清夏役",
+    "slug": "myachan"
+  },
+  {
+    "name": "花岩香奈",
+    "role": "葛城リーリヤ役",
+    "slug": "iwachan"
   },
   {
     "name": "陽高真白",
@@ -43,31 +68,6 @@
     "name": "山本亮",
     "role": "「学園アイドルマスター」アシスタントプロデューサー",
     "slug": "yamamoto"
-  },
-  {
-    "name": "春咲暖",
-    "role": "秦谷美鈴役",
-    "slug": "nonsan"
-  },
-  {
-    "name": "長月あおい",
-    "role": "花海咲季役",
-    "slug": "aochan"
-  },
-  {
-    "name": "飯田ヒカル",
-    "role": "藤田ことね役",
-    "slug": "pikarun"
-  },
-  {
-    "name": "七瀬つむぎ",
-    "role": "有村麻央役",
-    "slug": "mugichan"
-  },
-  {
-    "name": "薄井友里",
-    "role": "姫崎莉波役",
-    "slug": "suuchan"
   },
   {
     "name": "天音ゆかり",
