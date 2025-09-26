@@ -1,8 +1,23 @@
 [
   {
+    "name": "小鹿なお",
+    "role": "月村手毬役",
+    "slug": "bambi"
+  },
+  {
     "name": "伊藤舞音",
     "role": "倉本千奈役",
     "slug": "hamu"
+  },
+  {
+    "name": "天音ゆかり",
+    "role": "雨夜燕役",
+    "slug": "yukka"
+  },
+  {
+    "name": "湊みや",
+    "role": "紫雲清夏役",
+    "slug": "myachan"
   },
   {
     "name": "松田彩音",
@@ -10,9 +25,9 @@
     "slug": "aaya"
   },
   {
-    "name": "飯田ヒカル",
-    "role": "藤田ことね役",
-    "slug": "pikarun"
+    "name": "花岩香奈",
+    "role": "葛城リーリヤ役",
+    "slug": "iwachan"
   },
   {
     "name": "川村玲奈",
@@ -20,14 +35,19 @@
     "slug": "kawachimura"
   },
   {
-    "name": "長月あおい",
-    "role": "花海咲季役",
-    "slug": "aochan"
-  },
-  {
     "name": "七瀬つむぎ",
     "role": "有村麻央役",
     "slug": "mugichan"
+  },
+  {
+    "name": "飯田ヒカル",
+    "role": "藤田ことね役",
+    "slug": "pikarun"
+  },
+  {
+    "name": "長月あおい",
+    "role": "花海咲季役",
+    "slug": "aochan"
   },
   {
     "name": "薄井友里",
@@ -40,24 +60,9 @@
     "slug": "nonsan"
   },
   {
-    "name": "湊みや",
-    "role": "紫雲清夏役",
-    "slug": "myachan"
-  },
-  {
-    "name": "花岩香奈",
-    "role": "葛城リーリヤ役",
-    "slug": "iwachan"
-  },
-  {
     "name": "陽高真白",
     "role": "十王星南役",
     "slug": "mashipi"
-  },
-  {
-    "name": "小鹿なお",
-    "role": "月村手毬役",
-    "slug": "bambi"
   },
   {
     "name": "佐藤大地",
@@ -68,11 +73,6 @@
     "name": "山本亮",
     "role": "「学園アイドルマスター」アシスタントプロデューサー",
     "slug": "yamamoto"
-  },
-  {
-    "name": "天音ゆかり",
-    "role": "雨夜燕役",
-    "slug": "yukka"
   },
   {
     "name": "佐藤貴文",

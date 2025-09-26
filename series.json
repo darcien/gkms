@@ -387,5 +387,45 @@
     "mediaId": "fdktcploz",
     "airedAt": "2025-08-20T12:00:00.000Z",
     "guests": []
+  },
+  {
+    "mediaId": "zlo9sea3gi",
+    "airedAt": "2025-08-27T12:00:00.000Z",
+    "guests": [
+      "pikarun"
+    ]
+  },
+  {
+    "mediaId": "uslxslejdff",
+    "airedAt": "2025-09-03T12:00:00.000Z",
+    "guests": [
+      "bambi",
+      "mugichan"
+    ]
+  },
+  {
+    "mediaId": "rs614gi56hz",
+    "airedAt": "2025-09-10T12:00:00.000Z",
+    "guests": [
+      "iwachan",
+      "kawachimura"
+    ]
+  },
+  {
+    "mediaId": "rdzttpsoswfb",
+    "airedAt": "2025-09-17T12:00:00.000Z",
+    "guests": [
+      "myachan",
+      "aaya"
+    ]
+  },
+  {
+    "mediaId": "iu70jkp5ky5w",
+    "airedAt": "2025-09-25T11:00:00.000Z",
+    "guests": [
+      "bambi",
+      "hamu",
+      "yukka"
+    ]
   }
 ]

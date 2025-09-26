@@ -32,7 +32,10 @@ export const customParams = new URLSearchParams({
   orders: "-publishedAt",
   offset: "0",
   limit: String(60),
-  // TODO: add fields to reduce the size of the response
+  // Uses `fields` to avoid fetching unused fields.
+  // https://document.microcms.io/content-api/get-list-contents#h7462d83de4
+  fields:
+    "id,createdAt,updatedAt,publishedAt,revisedAt,title,tag,body,contents,comment,period",
 });
 
 async function fetchMedia() {
