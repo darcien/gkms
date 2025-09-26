@@ -123,7 +123,8 @@ const guests: Array<NormalisedGuest> = [
     },
     new Map<Slug, NameWithRole>(),
   ).entries(),
-].map(([slug, guest]) => ({ ...guest, slug }));
+].map(([slug, guest]) => ({ ...guest, slug }))
+  .toSorted((guestA, guestB) => guestA.name.localeCompare(guestB.name));
 
 logger.info(
   `Normalised ${guests.length} guests to ${LocalJsonPath.Guest}`,
