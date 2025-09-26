@@ -5,7 +5,8 @@
     "guests": [
       "aochan",
       "pikarun"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "0yjs2dbh00n",
@@ -13,7 +14,8 @@
     "guests": [
       "aochan",
       "bambi"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "e6ii2sy240",
@@ -21,7 +23,8 @@
     "guests": [
       "aochan",
       "mugichan"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "5btf8lyqgvc",
@@ -29,7 +32,8 @@
     "guests": [
       "pikarun",
       "myachan"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "blyr69gwb",
@@ -37,7 +41,8 @@
     "guests": [
       "bambi",
       "hamu"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "kfehnqi7lghn",
@@ -45,7 +50,8 @@
     "guests": [
       "mugichan",
       "suuchan"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "ilmk86g5jj5",
@@ -53,7 +59,8 @@
     "guests": [
       "iwachan",
       "myachan"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "646jkgogos3",
@@ -61,7 +68,8 @@
     "guests": [
       "hamu",
       "kawachimura"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "pruqtvl93",
@@ -69,7 +77,8 @@
     "guests": [
       "iwachan",
       "suuchan"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "8eedhfu6ff",
@@ -77,7 +86,8 @@
     "guests": [
       "aochan",
       "aaya"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "idamiwnlua",
@@ -85,7 +95,8 @@
     "guests": [
       "mugichan",
       "myachan"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "k9xd662nvl7r",
@@ -93,21 +104,24 @@
     "guests": [
       "bambi",
       "pikarun"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "51exmx40tw",
     "airedAt": "2024-11-20T12:00:00.000Z",
     "guests": [
       "kawachimura"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "v5f3u7v1xv",
     "airedAt": "2024-11-27T12:00:00.000Z",
     "guests": [
       "mashipi"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "vwwpk2cwv0",
@@ -116,14 +130,16 @@
       "iwachan",
       "hamu",
       "suuchan"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "u7la16tjp",
     "airedAt": "2024-12-11T12:00:00.000Z",
     "guests": [
       "myachan"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "gc8pb58a7h",
@@ -131,14 +147,16 @@
     "guests": [
       "iwachan",
       "myachan"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "d2y7e04dk0k",
     "airedAt": "2024-12-25T12:00:00.000Z",
     "guests": [
       "aochan"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "0qrtzptl8pws",
@@ -146,14 +164,16 @@
     "guests": [
       "bambi",
       "pikarun"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "u49hdcyg96e6",
     "airedAt": "2025-01-15T12:00:00.000Z",
     "guests": [
       "komino"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "mlj929yxzwb",
@@ -161,7 +181,8 @@
     "guests": [
       "kawachimura",
       "mugichan"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "bmttgc0f4v",
@@ -169,28 +190,32 @@
     "guests": [
       "hamu",
       "mashipi"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "vleic5xgv",
     "airedAt": "2025-02-05T12:00:00.000Z",
     "guests": [
       "bambi"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "1mrc96gdo1",
     "airedAt": "2025-02-12T12:00:00.000Z",
     "guests": [
       "suuchan"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "4wgeb0efw9",
     "airedAt": "2025-02-19T12:00:00.000Z",
     "guests": [
       "iwachan"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "udv8uurd1qm3",
@@ -199,14 +224,16 @@
       "aochan",
       "nonsan",
       "mashipi"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "1n0rpzzp2e1",
     "airedAt": "2025-03-05T12:00:00.000Z",
     "guests": [
       "hamu"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "jvvpz5uvgc",
@@ -214,7 +241,8 @@
     "guests": [
       "pikarun",
       "myachan"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "vcfsff5tqfjb",
@@ -222,7 +250,8 @@
     "guests": [
       "bambi",
       "mugichan"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "m4vs7mdakhy5",
@@ -230,7 +259,8 @@
     "guests": [
       "iwachan",
       "suuchan"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "t7d5r4ndrk7s",
@@ -238,7 +268,8 @@
     "guests": [
       "myachan",
       "kawachimura"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "4ylos6v8tyb",
@@ -246,7 +277,8 @@
     "guests": [
       "takafumi",
       "osawa"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "vpl1taajd",
@@ -254,7 +286,8 @@
     "guests": [
       "aochan",
       "nonsan"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "3razen5w9",
@@ -262,14 +295,16 @@
     "guests": [
       "suuchan",
       "yukka"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "nyeu23gyz",
     "airedAt": "2025-04-30T12:00:00.000Z",
     "guests": [
       "mugichan"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "mxs28mzdetx7",
@@ -278,7 +313,8 @@
       "aochan",
       "bambi",
       "pikarun"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "ym0913ub3joe",
@@ -286,7 +322,8 @@
     "guests": [
       "nonsan",
       "mashipi"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "78mthw68",
@@ -294,7 +331,8 @@
     "guests": [
       "iwachan",
       "nonsan"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "38htk8vz701b",
@@ -302,12 +340,14 @@
     "guests": [
       "daichi",
       "yamamoto"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "kwgi48xoj4",
     "airedAt": "2025-06-04T12:00:00.000Z",
-    "guests": []
+    "guests": [],
+    "isLive": false
   },
   {
     "mediaId": "80mx7oxm0i",
@@ -315,12 +355,14 @@
     "guests": [
       "bambi",
       "aaya"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "ac3kxzwyuvz1",
     "airedAt": "2025-06-18T12:00:00.000Z",
-    "guests": []
+    "guests": [],
+    "isLive": false
   },
   {
     "mediaId": "k15prheqo",
@@ -328,7 +370,8 @@
     "guests": [
       "aaya",
       "mashipi"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "8d09p7ld6",
@@ -336,7 +379,8 @@
     "guests": [
       "iwachan",
       "hamu"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "f5t3gjlf9we",
@@ -344,7 +388,8 @@
     "guests": [
       "myachan",
       "kawachimura"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "5k8o48bno4u",
@@ -352,7 +397,8 @@
     "guests": [
       "suuchan",
       "nonsan"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "zi2637wby",
@@ -360,7 +406,8 @@
     "guests": [
       "aochan",
       "mugichan"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "ge2il3eea",
@@ -368,7 +415,8 @@
     "guests": [
       "pikarun",
       "kawachimura"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "9f01driiwg2",
@@ -376,24 +424,28 @@
     "guests": [
       "hamu",
       "aaya"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "gyiog8yb9",
     "airedAt": "2025-08-13T12:00:00.000Z",
-    "guests": []
+    "guests": [],
+    "isLive": false
   },
   {
     "mediaId": "fdktcploz",
     "airedAt": "2025-08-20T12:00:00.000Z",
-    "guests": []
+    "guests": [],
+    "isLive": false
   },
   {
     "mediaId": "zlo9sea3gi",
     "airedAt": "2025-08-27T12:00:00.000Z",
     "guests": [
       "pikarun"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "uslxslejdff",
@@ -401,7 +453,8 @@
     "guests": [
       "bambi",
       "mugichan"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "rs614gi56hz",
@@ -409,7 +462,8 @@
     "guests": [
       "iwachan",
       "kawachimura"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "rdzttpsoswfb",
@@ -417,7 +471,8 @@
     "guests": [
       "myachan",
       "aaya"
-    ]
+    ],
+    "isLive": false
   },
   {
     "mediaId": "iu70jkp5ky5w",
@@ -426,6 +481,7 @@
       "bambi",
       "hamu",
       "yukka"
-    ]
+    ],
+    "isLive": true
   }
 ]

@@ -38,6 +38,10 @@ export function asKnownSlug(slug: RawKnownSlug): KnownSlug {
 
 export type NormalisedRadio = Pick<Radio, "airedAt" | "mediaId"> & {
   guests: Array<Slug>;
+  /**
+   * Whether the radio is a live broadcast or recorded.
+   */
+  isLive: boolean;
 };
 
 export type Series = Array<NormalisedRadio>;

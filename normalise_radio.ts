@@ -135,6 +135,7 @@ const series = allRadio.map((r): NormalisedRadio => ({
   mediaId: r.mediaId,
   airedAt: r.airedAt,
   guests: r.guests.map((g) => getSlugByName(g.name)),
+  isLive: r.title.includes("生配信"),
 })).toSorted((a, b) =>
   new Date(a.airedAt).getTime() - new Date(b.airedAt).getTime()
 );
