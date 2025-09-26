@@ -82,6 +82,29 @@ const twoGuestsRadioCount = series.filter((r) => r.guests.length === 2).length;
 const moreThan2GuestsRadioCount =
   series.filter((r) => r.guests.length > 2).length;
 
+function makeCombinationKey(slugs: Array<Slug>): string {
+  return slugs.map((g) => g).sort().join(",");
+}
+
+function parseCombinationKey(key: string): Array<Slug> {
+  return key.split(",").map((s) => s as Slug);
+}
+
+const guestsCombiKeyPairs = series.filter((r) => r.guests.length > 1).map(
+  (radio) => [makeCombinationKey(radio.guests), radio.guests] as const,
+);
+
+const freqByCombiKey = freqByKey(guestsCombiKeyPairs, ([key]) => key);
+const maxCombiFreq = Math.max(...Array.from(freqByCombiKey.values()));
+
+const mostCommonCombiKeys = Array.from(freqByCombiKey.entries())
+  .flatMap(([key, freq]) => freq === maxCombiFreq ? [key] : []);
+
+const mostCommonGuestCombi = {
+  frequency: maxCombiFreq,
+  combinations: mostCommonCombiKeys.map((key) => parseCombinationKey(key)),
+};
+
 const liveBroadcastRadioCount = series.filter((r) => r.isLive).length;
 
 logger.info(
@@ -100,4 +123,5 @@ await writeJsonFile(LocalJsonPath.Stats, {
   twoGuestsRadioCount,
   moreThan2GuestsRadioCount,
   liveBroadcastRadioCount,
+  mostCommonGuestCombi,
 });

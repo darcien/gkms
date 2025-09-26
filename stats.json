@@ -96,5 +96,38 @@
   "oneGuestRadioCount": 11,
   "twoGuestsRadioCount": 37,
   "moreThan2GuestsRadioCount": 4,
-  "liveBroadcastRadioCount": 1
+  "liveBroadcastRadioCount": 1,
+  "mostCommonGuestCombi": {
+    "frequency": 2,
+    "combinations": [
+      [
+        "aochan",
+        "mugichan"
+      ],
+      [
+        "myachan",
+        "pikarun"
+      ],
+      [
+        "iwachan",
+        "myachan"
+      ],
+      [
+        "iwachan",
+        "suuchan"
+      ],
+      [
+        "bambi",
+        "pikarun"
+      ],
+      [
+        "bambi",
+        "mugichan"
+      ],
+      [
+        "kawachimura",
+        "myachan"
+      ]
+    ]
+  }
 }

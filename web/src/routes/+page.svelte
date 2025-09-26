@@ -2,13 +2,15 @@
 	import { colorBySlug, stats, radioLastFetchedAt, getNameBySlug } from '$lib/radio';
 	import { siteName } from '$lib/constants';
 	import DataUpdatedAt from '$lib/DataUpdatedAt.svelte';
+	import { sortByJaLocale } from '$lib/sortUtils';
 
 	const {
 		groupedSlugFreq,
 		firsRadioAiredAt,
 		totalEpisodesCount,
 		totalGuestsCount,
-		castOldestVisit
+		castOldestVisit,
+		mostCommonGuestCombi
 	} = stats;
 
 	const cast = groupedSlugFreq.cast as Array<[string, number]>;
@@ -28,6 +30,15 @@
 
 	const daysSinceFirstAir = calculateDaysSince(firsRadioAiredAt);
 	const daysSinceOldestVisit = calculateDaysSince(castOldestVisit.visitedAt);
+
+	const formattedMostCommonGuestCombi = mostCommonGuestCombi.combinations
+		.map((slugs) =>
+			slugs
+				.map((slug) => getNameBySlug(slug))
+				.toSorted(sortByJaLocale)
+				.join(' & ')
+		)
+		.toSorted(sortByJaLocale);
 </script>
 
 <svelte:head>
@@ -98,6 +109,16 @@
 		<!-- Right panel stats -->
 		<div class="border-border border-b-2">
 			<div class="flex flex-col">
+				<div class="border-border border-b-2 px-6 py-2">
+					<div class="flex flex-col items-center justify-between gap-2">
+						<div>Most common cast combination ({mostCommonGuestCombi.frequency}回)</div>
+						{#each formattedMostCommonGuestCombi as combi (combi)}
+							<div class="text-3xl font-medium text-neutral-800">
+								{combi}
+							</div>
+						{/each}
+					</div>
+				</div>
 				<div class="border-border border-b-2 px-6 py-2">
 					<div class="flex flex-col items-center justify-between">
 						<div>Cast least recent visit</div>
