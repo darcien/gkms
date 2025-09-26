@@ -1,4 +1,5 @@
 import stats from '../../../stats.json' with { type: 'json' };
+import guest from '../../../guest.json' with { type: 'json' };
 import refinedAllMedia from '../../../refined_all_media.json' with { type: 'json' };
 
 export const colorBySlug = {
@@ -17,5 +18,9 @@ export const colorBySlug = {
 };
 
 export const radioLastFetchedAt = refinedAllMedia.metadata.updatedAt;
+
+export function getNameBySlug(slug: string) {
+	return guest.find((g) => g.slug === slug)?.name || slug;
+}
 
 export { stats };

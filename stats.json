@@ -72,6 +72,29 @@
     ]
   },
   "firsRadioAiredAt": "2024-08-28T12:00:00.000Z",
+  "lastCastVisitBySlug": {
+    "aochan": "2025-07-23T12:00:00.000Z",
+    "bambi": "2025-09-25T11:00:00.000Z",
+    "pikarun": "2025-08-27T12:00:00.000Z",
+    "mugichan": "2025-09-03T12:00:00.000Z",
+    "iwachan": "2025-09-10T12:00:00.000Z",
+    "hamu": "2025-09-25T11:00:00.000Z",
+    "myachan": "2025-09-17T12:00:00.000Z",
+    "kawachimura": "2025-09-10T12:00:00.000Z",
+    "mashipi": "2025-06-25T12:00:00.000Z",
+    "nonsan": "2025-07-16T12:00:00.000Z",
+    "aaya": "2025-09-17T12:00:00.000Z",
+    "suuchan": "2025-07-16T12:00:00.000Z"
+  },
+  "castOldestVisit": {
+    "slug": "mashipi",
+    "visitedAt": "2025-06-25T12:00:00.000Z"
+  },
   "totalEpisodesCount": 56,
-  "totalGuestsCount": 97
+  "totalGuestsCount": 97,
+  "noGuestRadioCount": 4,
+  "oneGuestRadioCount": 11,
+  "twoGuestsRadioCount": 37,
+  "moreThan2GuestsRadioCount": 4,
+  "liveBroadcastRadioCount": 1
 }

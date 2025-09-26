@@ -1,9 +1,15 @@
 <script lang="ts">
-	import { colorBySlug, stats, radioLastFetchedAt } from '$lib/radio';
+	import { colorBySlug, stats, radioLastFetchedAt, getNameBySlug } from '$lib/radio';
 	import { siteName } from '$lib/constants';
 	import DataUpdatedAt from '$lib/DataUpdatedAt.svelte';
 
-	const { groupedSlugFreq, firsRadioAiredAt, totalEpisodesCount, totalGuestsCount } = stats;
+	const {
+		groupedSlugFreq,
+		firsRadioAiredAt,
+		totalEpisodesCount,
+		totalGuestsCount,
+		castOldestVisit
+	} = stats;
 
 	const cast = groupedSlugFreq.cast as Array<[string, number]>;
 
@@ -14,9 +20,14 @@
 
 	const now = new Date();
 
-	const daysSinceFirstAir = Math.floor(
-		(now.getTime() - new Date(firsRadioAiredAt).getTime()) / (1000 * 60 * 60 * 24)
-	);
+	const calculateDaysSince = (dateString: string) => {
+		const date = new Date(dateString);
+		const diffTime = Math.abs(now.getTime() - date.getTime());
+		return Math.floor(diffTime / (1000 * 60 * 60 * 24));
+	};
+
+	const daysSinceFirstAir = calculateDaysSince(firsRadioAiredAt);
+	const daysSinceOldestVisit = calculateDaysSince(castOldestVisit.visitedAt);
 </script>
 
 <svelte:head>
@@ -69,7 +80,7 @@
 			<div class="flex flex-col gap-4">
 				{#each guests as { slug, freq } (slug)}
 					<div class="flex items-center">
-						<div class="mr-2 w-6">{slug.slice(0, 2)}</div>
+						<div class="mr-2 w-16 text-xs">{getNameBySlug(slug)}</div>
 						<div class="flex-1">
 							<div
 								class="h-8"
@@ -87,13 +98,15 @@
 		<!-- Right panel stats -->
 		<div class="border-border border-b-2">
 			<div class="flex flex-col">
-				<div class="border-border border-b-2 px-6 py-3">
-					<div class="flex items-center justify-between">
-						<div>Days since first air</div>
-						<div>{daysSinceFirstAir}</div>
+				<div class="border-border border-b-2 px-6 py-2">
+					<div class="flex flex-col items-center justify-between">
+						<div>Cast least recent visit</div>
+						<div class="text-3xl font-medium text-neutral-800">
+							{getNameBySlug(castOldestVisit.slug)} ({daysSinceOldestVisit}日)
+						</div>
 					</div>
 				</div>
-				<div class="border-border border-b-2 px-6 py-3">
+				<div class="border-border border-b-2 px-6 py-2">
 					<div class="flex items-center justify-between">
 						<div>Test row</div>
 						<div>{now.toISOString()}</div>

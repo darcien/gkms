@@ -44,10 +44,12 @@
   - song played freq maybe? per total songs
   - each radio section count? requires manual counting or do audio transcribing
   - audio transcribing unlocks lots of stats like kawachi goroku
-  - pie chart for guest maybe
+  - pie chart for zero guest, 1 guest, 2 guest, 3+ guest
+    - maybe this can replace the triangle for now
   - bar chart for non-cast guests
   - most common combination
   - most uncommon combination (non-cast excluded)
+  - total comments count? might need to figure out how to count it, maybe via the WSS
 
 ## website - raw idea
 

@@ -27,6 +27,8 @@ const freqBySlug = Object.fromEntries(
 );
 
 const castOrder: Array<Slug> = [
+  // This ordering matches the one in the game report card.
+  // TODO: add yukka once tsubame is playable
   asKnownSlug("aochan"),
   asKnownSlug("bambi"),
   asKnownSlug("pikarun"),
@@ -41,6 +43,29 @@ const castOrder: Array<Slug> = [
   asKnownSlug("suuchan"),
 ];
 
+const lastCastVisitBySlug = Object.fromEntries(
+  castOrder.map((
+    slug,
+  ) => [
+    slug,
+    series.toReversed().find((radio) => radio.guests.includes(slug))?.airedAt,
+  ]),
+);
+
+const [oSlug, oVisitAt] = Object.entries(lastCastVisitBySlug).toSorted(
+  ([, aDate], [, bDate]) => {
+    if (aDate && bDate) {
+      return new Date(aDate).getTime() - new Date(bDate).getTime();
+    }
+    if (aDate) return -1;
+    if (bDate) return 1;
+    return 0;
+  },
+).find(Boolean) || [];
+const castOldestVisit = oSlug && oVisitAt
+  ? { slug: oSlug, visitedAt: oVisitAt }
+  : null;
+
 const groupedSlugFreq = {
   cast: castOrder.map((slug) => [slug, freqBySlug[slug] ?? 0]),
 };
@@ -51,6 +76,14 @@ const totalGuestsCount = series.reduce((total, radio) => {
   return total + radio.guests.length;
 }, 0);
 
+const noGuestRadioCount = series.filter((r) => r.guests.length === 0).length;
+const oneGuestRadioCount = series.filter((r) => r.guests.length === 1).length;
+const twoGuestsRadioCount = series.filter((r) => r.guests.length === 2).length;
+const moreThan2GuestsRadioCount =
+  series.filter((r) => r.guests.length > 2).length;
+
+const liveBroadcastRadioCount = series.filter((r) => r.isLive).length;
+
 logger.info(
   `Computed stats saved in ${LocalJsonPath.Stats}`,
 );
@@ -58,6 +91,13 @@ await writeJsonFile(LocalJsonPath.Stats, {
   freqBySlug,
   groupedSlugFreq,
   firsRadioAiredAt: firstRadio?.airedAt,
+  lastCastVisitBySlug,
+  castOldestVisit,
   totalEpisodesCount,
   totalGuestsCount,
+  noGuestRadioCount,
+  oneGuestRadioCount,
+  twoGuestsRadioCount,
+  moreThan2GuestsRadioCount,
+  liveBroadcastRadioCount,
 });
