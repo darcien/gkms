@@ -483,5 +483,67 @@
       "yukka"
     ],
     "isLive": true
+  },
+  {
+    "mediaId": "mo7jz6tq9ntw",
+    "airedAt": "2025-10-01T12:00:00.000Z",
+    "guests": [
+      "myachan",
+      "suuchan"
+    ],
+    "isLive": false
+  },
+  {
+    "mediaId": "udhd2k1v4",
+    "airedAt": "2025-10-08T12:00:00.000Z",
+    "guests": [
+      "aochan",
+      "pikarun"
+    ],
+    "isLive": false
+  },
+  {
+    "mediaId": "jltrbc9dujg",
+    "airedAt": "2025-10-15T12:00:00.000Z",
+    "guests": [
+      "kawachimura",
+      "nonsan"
+    ],
+    "isLive": false
+  },
+  {
+    "mediaId": "3sx3vzlejz8",
+    "airedAt": "2025-10-22T12:00:00.000Z",
+    "guests": [
+      "bambi",
+      "iwachan"
+    ],
+    "isLive": false
+  },
+  {
+    "mediaId": "nevm9w5s96vn",
+    "airedAt": "2025-10-29T12:00:00.000Z",
+    "guests": [
+      "hamu"
+    ],
+    "isLive": false
+  },
+  {
+    "mediaId": "kkyix840iip",
+    "airedAt": "2025-11-05T12:00:00.000Z",
+    "guests": [
+      "mashipi",
+      "yukka"
+    ],
+    "isLive": false
+  },
+  {
+    "mediaId": "rszpuu1ghh7",
+    "airedAt": "2025-11-12T12:00:00.000Z",
+    "guests": [
+      "mugichan",
+      "myachan"
+    ],
+    "isLive": false
   }
 ]

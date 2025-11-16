@@ -31,7 +31,7 @@ export const customParams = new URLSearchParams({
   // Descending order by publishedAt, latest first
   orders: "-publishedAt",
   offset: "0",
-  limit: String(60),
+  limit: String(100),
   // Uses `fields` to avoid fetching unused fields.
   // https://document.microcms.io/content-api/get-list-contents#h7462d83de4
   fields:
