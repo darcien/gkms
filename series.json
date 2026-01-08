@@ -545,5 +545,64 @@
       "myachan"
     ],
     "isLive": false
+  },
+  {
+    "mediaId": "u8rhgnnpo6",
+    "airedAt": "2025-11-19T12:00:00.000Z",
+    "guests": [
+      "pikarun",
+      "mashipi"
+    ],
+    "isLive": false
+  },
+  {
+    "mediaId": "svnc2yh27ixs",
+    "airedAt": "2025-11-26T12:00:00.000Z",
+    "guests": [
+      "yukka"
+    ],
+    "isLive": false
+  },
+  {
+    "mediaId": "6f807maaw",
+    "airedAt": "2025-12-03T12:00:00.000Z",
+    "guests": [
+      "suuchan"
+    ],
+    "isLive": false
+  },
+  {
+    "mediaId": "gss91n3nc4m",
+    "airedAt": "2025-12-10T12:00:00.000Z",
+    "guests": [],
+    "isLive": false
+  },
+  {
+    "mediaId": "6g6u3cslcs9",
+    "airedAt": "2025-12-18T11:00:00.000Z",
+    "guests": [
+      "mugichan",
+      "kawachimura",
+      "nonsan"
+    ],
+    "isLive": true
+  },
+  {
+    "mediaId": "1qztxk3u2",
+    "airedAt": "2025-12-24T12:15:00.000Z",
+    "guests": [
+      "pikarun",
+      "iwachan"
+    ],
+    "isLive": false
+  },
+  {
+    "mediaId": "en3piqi4yfh1",
+    "airedAt": "2026-01-07T12:00:00.000Z",
+    "guests": [
+      "aaya",
+      "yukka"
+    ],
+    "isLive": true
   }
 ]

@@ -1,18 +1,18 @@
 {
   "freqBySlug": {
+    "iwachan": 11,
     "myachan": 11,
     "bambi": 11,
-    "iwachan": 10,
+    "pikarun": 11,
+    "mugichan": 10,
     "aochan": 10,
+    "kawachimura": 9,
+    "suuchan": 9,
     "hamu": 9,
-    "mugichan": 9,
-    "pikarun": 9,
-    "kawachimura": 8,
-    "suuchan": 8,
-    "nonsan": 6,
-    "mashipi": 6,
-    "aaya": 5,
-    "yukka": 3,
+    "nonsan": 7,
+    "mashipi": 7,
+    "aaya": 6,
+    "yukka": 5,
     "yamamoto": 1,
     "daichi": 1,
     "osawa": 1,
@@ -31,15 +31,15 @@
       ],
       [
         "pikarun",
-        9
+        11
       ],
       [
         "mugichan",
-        9
+        10
       ],
       [
         "iwachan",
-        10
+        11
       ],
       [
         "hamu",
@@ -51,23 +51,23 @@
       ],
       [
         "kawachimura",
-        8
+        9
       ],
       [
         "mashipi",
-        6
+        7
       ],
       [
         "nonsan",
-        6
+        7
       ],
       [
         "aaya",
-        5
+        6
       ],
       [
         "suuchan",
-        8
+        9
       ]
     ]
   },
@@ -75,28 +75,28 @@
   "lastCastVisitBySlug": {
     "aochan": "2025-10-08T12:00:00.000Z",
     "bambi": "2025-10-22T12:00:00.000Z",
-    "pikarun": "2025-10-08T12:00:00.000Z",
-    "mugichan": "2025-11-12T12:00:00.000Z",
-    "iwachan": "2025-10-22T12:00:00.000Z",
+    "pikarun": "2025-12-24T12:15:00.000Z",
+    "mugichan": "2025-12-18T11:00:00.000Z",
+    "iwachan": "2025-12-24T12:15:00.000Z",
     "hamu": "2025-10-29T12:00:00.000Z",
     "myachan": "2025-11-12T12:00:00.000Z",
-    "kawachimura": "2025-10-15T12:00:00.000Z",
-    "mashipi": "2025-11-05T12:00:00.000Z",
-    "nonsan": "2025-10-15T12:00:00.000Z",
-    "aaya": "2025-09-17T12:00:00.000Z",
-    "suuchan": "2025-10-01T12:00:00.000Z"
+    "kawachimura": "2025-12-18T11:00:00.000Z",
+    "mashipi": "2025-11-19T12:00:00.000Z",
+    "nonsan": "2025-12-18T11:00:00.000Z",
+    "aaya": "2026-01-07T12:00:00.000Z",
+    "suuchan": "2025-12-03T12:00:00.000Z"
   },
   "castOldestVisit": {
-    "slug": "aaya",
-    "visitedAt": "2025-09-17T12:00:00.000Z"
+    "slug": "aochan",
+    "visitedAt": "2025-10-08T12:00:00.000Z"
   },
-  "totalEpisodesCount": 63,
-  "totalGuestsCount": 110,
-  "noGuestRadioCount": 4,
-  "oneGuestRadioCount": 12,
-  "twoGuestsRadioCount": 43,
-  "moreThan2GuestsRadioCount": 4,
-  "liveBroadcastRadioCount": 1,
+  "totalEpisodesCount": 70,
+  "totalGuestsCount": 121,
+  "noGuestRadioCount": 5,
+  "oneGuestRadioCount": 14,
+  "twoGuestsRadioCount": 46,
+  "moreThan2GuestsRadioCount": 5,
+  "liveBroadcastRadioCount": 3,
   "mostCommonGuestCombi": {
     "frequency": 2,
     "combinations": [
