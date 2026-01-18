@@ -4,12 +4,12 @@
     "myachan": 11,
     "bambi": 11,
     "pikarun": 11,
+    "aochan": 11,
     "mugichan": 10,
-    "aochan": 10,
     "kawachimura": 9,
     "suuchan": 9,
     "hamu": 9,
-    "nonsan": 7,
+    "nonsan": 8,
     "mashipi": 7,
     "aaya": 6,
     "yukka": 5,
@@ -23,7 +23,7 @@
     "cast": [
       [
         "aochan",
-        10
+        11
       ],
       [
         "bambi",
@@ -59,7 +59,7 @@
       ],
       [
         "nonsan",
-        7
+        8
       ],
       [
         "aaya",
@@ -73,7 +73,7 @@
   },
   "firsRadioAiredAt": "2024-08-28T12:00:00.000Z",
   "lastCastVisitBySlug": {
-    "aochan": "2025-10-08T12:00:00.000Z",
+    "aochan": "2026-01-14T12:00:00.000Z",
     "bambi": "2025-10-22T12:00:00.000Z",
     "pikarun": "2025-12-24T12:15:00.000Z",
     "mugichan": "2025-12-18T11:00:00.000Z",
@@ -82,19 +82,19 @@
     "myachan": "2025-11-12T12:00:00.000Z",
     "kawachimura": "2025-12-18T11:00:00.000Z",
     "mashipi": "2025-11-19T12:00:00.000Z",
-    "nonsan": "2025-12-18T11:00:00.000Z",
+    "nonsan": "2026-01-14T12:00:00.000Z",
     "aaya": "2026-01-07T12:00:00.000Z",
     "suuchan": "2025-12-03T12:00:00.000Z"
   },
   "castOldestVisit": {
-    "slug": "aochan",
-    "visitedAt": "2025-10-08T12:00:00.000Z"
+    "slug": "bambi",
+    "visitedAt": "2025-10-22T12:00:00.000Z"
   },
-  "totalEpisodesCount": 70,
-  "totalGuestsCount": 121,
+  "totalEpisodesCount": 71,
+  "totalGuestsCount": 123,
   "noGuestRadioCount": 5,
   "oneGuestRadioCount": 14,
-  "twoGuestsRadioCount": 46,
+  "twoGuestsRadioCount": 47,
   "moreThan2GuestsRadioCount": 5,
   "liveBroadcastRadioCount": 3,
   "mostCommonGuestCombi": {
@@ -135,6 +135,10 @@
       [
         "kawachimura",
         "myachan"
+      ],
+      [
+        "aochan",
+        "nonsan"
       ]
     ]
   }
