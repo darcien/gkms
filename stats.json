@@ -1,18 +1,18 @@
 {
   "freqBySlug": {
-    "iwachan": 11,
-    "myachan": 11,
-    "bambi": 11,
-    "pikarun": 11,
-    "aochan": 11,
-    "mugichan": 10,
-    "kawachimura": 9,
-    "suuchan": 9,
-    "hamu": 9,
-    "nonsan": 8,
-    "mashipi": 7,
-    "aaya": 6,
-    "yukka": 5,
+    "myachan": 15,
+    "bambi": 15,
+    "iwachan": 14,
+    "mugichan": 14,
+    "pikarun": 14,
+    "aochan": 13,
+    "kawachimura": 12,
+    "suuchan": 11,
+    "hamu": 11,
+    "nonsan": 9,
+    "mashipi": 9,
+    "yukka": 7,
+    "aaya": 7,
     "yamamoto": 1,
     "daichi": 1,
     "osawa": 1,
@@ -23,91 +23,83 @@
     "cast": [
       [
         "aochan",
-        11
+        13
       ],
       [
         "bambi",
-        11
+        15
       ],
       [
         "pikarun",
-        11
+        14
       ],
       [
         "mugichan",
-        10
+        14
       ],
       [
         "iwachan",
-        11
+        14
       ],
       [
         "hamu",
-        9
-      ],
-      [
-        "myachan",
         11
       ],
       [
+        "myachan",
+        15
+      ],
+      [
         "kawachimura",
-        9
+        12
       ],
       [
         "mashipi",
-        7
+        9
       ],
       [
         "nonsan",
-        8
+        9
       ],
       [
         "aaya",
-        6
+        7
       ],
       [
         "suuchan",
-        9
+        11
       ]
     ]
   },
   "firsRadioAiredAt": "2024-08-28T12:00:00.000Z",
   "lastCastVisitBySlug": {
-    "aochan": "2026-01-14T12:00:00.000Z",
-    "bambi": "2025-10-22T12:00:00.000Z",
-    "pikarun": "2025-12-24T12:15:00.000Z",
-    "mugichan": "2025-12-18T11:00:00.000Z",
-    "iwachan": "2025-12-24T12:15:00.000Z",
-    "hamu": "2025-10-29T12:00:00.000Z",
-    "myachan": "2025-11-12T12:00:00.000Z",
-    "kawachimura": "2025-12-18T11:00:00.000Z",
-    "mashipi": "2025-11-19T12:00:00.000Z",
-    "nonsan": "2026-01-14T12:00:00.000Z",
-    "aaya": "2026-01-07T12:00:00.000Z",
-    "suuchan": "2025-12-03T12:00:00.000Z"
+    "aochan": "2026-04-01T12:00:00.000Z",
+    "bambi": "2026-05-20T12:00:00.000Z",
+    "pikarun": "2026-04-15T12:00:00.000Z",
+    "mugichan": "2026-05-27T12:00:00.000Z",
+    "iwachan": "2026-05-27T12:00:00.000Z",
+    "hamu": "2026-05-13T12:00:00.000Z",
+    "myachan": "2026-04-08T12:00:00.000Z",
+    "kawachimura": "2026-04-15T12:00:00.000Z",
+    "mashipi": "2026-03-18T12:00:00.000Z",
+    "nonsan": "2026-05-06T12:00:00.000Z",
+    "aaya": "2026-04-22T12:00:00.000Z",
+    "suuchan": "2026-05-20T12:00:00.000Z"
   },
   "castOldestVisit": {
-    "slug": "bambi",
-    "visitedAt": "2025-10-22T12:00:00.000Z"
+    "slug": "mashipi",
+    "visitedAt": "2026-03-18T12:00:00.000Z"
   },
-  "totalEpisodesCount": 71,
-  "totalGuestsCount": 123,
+  "totalEpisodesCount": 90,
+  "totalGuestsCount": 156,
   "noGuestRadioCount": 5,
-  "oneGuestRadioCount": 14,
-  "twoGuestsRadioCount": 47,
-  "moreThan2GuestsRadioCount": 5,
-  "liveBroadcastRadioCount": 3,
+  "oneGuestRadioCount": 21,
+  "twoGuestsRadioCount": 57,
+  "moreThan2GuestsRadioCount": 7,
+  "liveBroadcastRadioCount": 5,
   "mostCommonGuestCombi": {
-    "frequency": 2,
+    "frequency": 3,
     "combinations": [
-      [
-        "aochan",
-        "pikarun"
-      ],
-      [
-        "aochan",
-        "mugichan"
-      ],
       [
         "myachan",
         "pikarun"
@@ -117,28 +109,8 @@
         "myachan"
       ],
       [
-        "iwachan",
-        "suuchan"
-      ],
-      [
-        "mugichan",
-        "myachan"
-      ],
-      [
-        "bambi",
-        "pikarun"
-      ],
-      [
         "bambi",
         "mugichan"
-      ],
-      [
-        "kawachimura",
-        "myachan"
-      ],
-      [
-        "aochan",
-        "nonsan"
       ]
     ]
   }
